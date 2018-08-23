@@ -42,7 +42,7 @@ FAILD=0
 SCKEY=$(echo ${SCKEY} | tr "," " ")
 for i in $(seq -s ' ' 1 ${NUM}); do 
   FLAG=$(make > ${LOG_PREFIX}.${i}_in_${NUM}.log 2>&1)
-  TEXT="test_install_k8s_${i}"
+  TEXT="test install k8s ${i}"
   if [[ $FLAG -eq 0 ]]; then
     RET="Success"
   else
@@ -64,7 +64,7 @@ END=$(date +%s)
 END_STR=$(date -d today +'%Y-%m-%d %H:%M:%S')
 ELAPSED=$[$END-$START]
 MINUTE=$[$ELAPSED/60]
-TEXT="summary_of_test_install_k8s_"
+TEXT="summary of test install k8s"
 DESP=$(cat <<EOF
 start: ${START_STR}  
 end: ${END_STR}  
