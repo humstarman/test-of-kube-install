@@ -1,0 +1,718 @@
+192.168.100.162 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.162 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb2: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb2: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb2: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.165 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.165 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb5: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb5: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb5: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.163 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.163 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb3: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb3: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb3: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.161 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.161 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb1: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb1: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb1: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.166 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.166 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb6: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb6: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb6: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.164 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.164 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb4: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb4: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb4: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.165 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.165 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb5' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb5: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb5: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb5: Setting the name of the VM: Vm1_nodeb5_1532594155841_35831\u001b[0m\r\n\u001b[1m==> nodeb5: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb5: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb5: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb5: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb5: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb5: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb5: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb5: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb5: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb5: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb5: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb5: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb5: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb5: \r\n    nodeb5: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb5: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb5: \r\n    nodeb5: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb5: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb5: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb5: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb5: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb5: The guest additions on this VM do not match the installed version of\r\n    nodeb5: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb5: prevent things such as shared folders from working properly. If you see\r\n    nodeb5: shared folder errors, please make sure the guest additions within the\r\n    nodeb5: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb5: your host and reload your VM.\r\n    nodeb5: \r\n    nodeb5: Guest Additions Version: 4.3.28\r\n    nodeb5: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb5: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb5: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb5: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb5: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb5: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb5: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb5: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb5: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb5: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb5: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb5: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb5: Ändern Passwort für Benutzer root.\r\n    nodeb5: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb5' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb5: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Setting the name of the VM: Vm1_nodeb5_1532594155841_35831\u001b[0m", 
+        "\u001b[1m==> nodeb5: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb5: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb5: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb5: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb5: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb5: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb5: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb5: ", 
+        "    nodeb5: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb5: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb5: ", 
+        "    nodeb5: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb5: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb5: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb5: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb5: The guest additions on this VM do not match the installed version of", 
+        "    nodeb5: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb5: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb5: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb5: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb5: your host and reload your VM.", 
+        "    nodeb5: ", 
+        "    nodeb5: Guest Additions Version: 4.3.28", 
+        "    nodeb5: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb5: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb5: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb5: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb5: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb5: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb5: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb5: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb5: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb5: Ändern Passwort für Benutzer root.", 
+        "    nodeb5: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.162 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.162 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb2' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb2: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb2: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb2: Setting the name of the VM: Vm1_nodeb2_1532594156254_85984\u001b[0m\r\n\u001b[1m==> nodeb2: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb2: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb2: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb2: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb2: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb2: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb2: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb2: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb2: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb2: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb2: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb2: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb2: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb2: \r\n    nodeb2: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb2: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb2: \r\n    nodeb2: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb2: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb2: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb2: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb2: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb2: The guest additions on this VM do not match the installed version of\r\n    nodeb2: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb2: prevent things such as shared folders from working properly. If you see\r\n    nodeb2: shared folder errors, please make sure the guest additions within the\r\n    nodeb2: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb2: your host and reload your VM.\r\n    nodeb2: \r\n    nodeb2: Guest Additions Version: 4.3.28\r\n    nodeb2: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb2: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb2: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb2: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb2: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb2: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb2: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb2: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb2: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb2: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb2: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb2: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb2: Ändern Passwort für Benutzer root.\r\n    nodeb2: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb2' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb2: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Setting the name of the VM: Vm1_nodeb2_1532594156254_85984\u001b[0m", 
+        "\u001b[1m==> nodeb2: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb2: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb2: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb2: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb2: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb2: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb2: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb2: ", 
+        "    nodeb2: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb2: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb2: ", 
+        "    nodeb2: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb2: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb2: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb2: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb2: The guest additions on this VM do not match the installed version of", 
+        "    nodeb2: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb2: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb2: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb2: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb2: your host and reload your VM.", 
+        "    nodeb2: ", 
+        "    nodeb2: Guest Additions Version: 4.3.28", 
+        "    nodeb2: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb2: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb2: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb2: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb2: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb2: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb2: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb2: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb2: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb2: Ändern Passwort für Benutzer root.", 
+        "    nodeb2: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.161 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.161 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb1' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb1: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb1: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb1: Setting the name of the VM: Vm1_nodeb1_1532594161416_49121\u001b[0m\r\n\u001b[1m==> nodeb1: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb1: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb1: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb1: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb1: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb1: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb1: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb1: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb1: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb1: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb1: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb1: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb1: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb1: \r\n    nodeb1: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb1: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb1: \r\n    nodeb1: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb1: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb1: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb1: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb1: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb1: The guest additions on this VM do not match the installed version of\r\n    nodeb1: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb1: prevent things such as shared folders from working properly. If you see\r\n    nodeb1: shared folder errors, please make sure the guest additions within the\r\n    nodeb1: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb1: your host and reload your VM.\r\n    nodeb1: \r\n    nodeb1: Guest Additions Version: 4.3.28\r\n    nodeb1: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb1: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb1: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb1: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb1: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb1: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb1: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb1: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb1: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb1: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb1: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb1: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb1: Ändern Passwort für Benutzer root.\r\n    nodeb1: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb1' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb1: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Setting the name of the VM: Vm1_nodeb1_1532594161416_49121\u001b[0m", 
+        "\u001b[1m==> nodeb1: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb1: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb1: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb1: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb1: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb1: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb1: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb1: ", 
+        "    nodeb1: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb1: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb1: ", 
+        "    nodeb1: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb1: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb1: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb1: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb1: The guest additions on this VM do not match the installed version of", 
+        "    nodeb1: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb1: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb1: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb1: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb1: your host and reload your VM.", 
+        "    nodeb1: ", 
+        "    nodeb1: Guest Additions Version: 4.3.28", 
+        "    nodeb1: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb1: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb1: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb1: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb1: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb1: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb1: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb1: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb1: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb1: Ändern Passwort für Benutzer root.", 
+        "    nodeb1: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.166 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.166 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb6' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb6: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb6: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb6: Setting the name of the VM: Vm1_nodeb6_1532594159438_12471\u001b[0m\r\n\u001b[1m==> nodeb6: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb6: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb6: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb6: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb6: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb6: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb6: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb6: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb6: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb6: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb6: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb6: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb6: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb6: \r\n    nodeb6: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb6: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb6: \r\n    nodeb6: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb6: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb6: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb6: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb6: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb6: The guest additions on this VM do not match the installed version of\r\n    nodeb6: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb6: prevent things such as shared folders from working properly. If you see\r\n    nodeb6: shared folder errors, please make sure the guest additions within the\r\n    nodeb6: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb6: your host and reload your VM.\r\n    nodeb6: \r\n    nodeb6: Guest Additions Version: 4.3.28\r\n    nodeb6: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb6: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb6: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb6: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb6: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb6: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb6: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb6: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb6: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb6: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb6: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb6: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb6: Ändern Passwort für Benutzer root.\r\n    nodeb6: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb6' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb6: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Setting the name of the VM: Vm1_nodeb6_1532594159438_12471\u001b[0m", 
+        "\u001b[1m==> nodeb6: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb6: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb6: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb6: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb6: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb6: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb6: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb6: ", 
+        "    nodeb6: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb6: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb6: ", 
+        "    nodeb6: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb6: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb6: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb6: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb6: The guest additions on this VM do not match the installed version of", 
+        "    nodeb6: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb6: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb6: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb6: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb6: your host and reload your VM.", 
+        "    nodeb6: ", 
+        "    nodeb6: Guest Additions Version: 4.3.28", 
+        "    nodeb6: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb6: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb6: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb6: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb6: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb6: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb6: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb6: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb6: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb6: Ändern Passwort für Benutzer root.", 
+        "    nodeb6: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.163 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.163 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb3' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb3: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb3: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb3: Setting the name of the VM: Vm1_nodeb3_1532594161551_58871\u001b[0m\r\n\u001b[1m==> nodeb3: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb3: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb3: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb3: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb3: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb3: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb3: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb3: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb3: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb3: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb3: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb3: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb3: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb3: \r\n    nodeb3: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb3: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb3: \r\n    nodeb3: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb3: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb3: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb3: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb3: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb3: The guest additions on this VM do not match the installed version of\r\n    nodeb3: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb3: prevent things such as shared folders from working properly. If you see\r\n    nodeb3: shared folder errors, please make sure the guest additions within the\r\n    nodeb3: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb3: your host and reload your VM.\r\n    nodeb3: \r\n    nodeb3: Guest Additions Version: 4.3.28\r\n    nodeb3: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb3: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb3: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb3: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb3: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb3: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb3: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb3: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb3: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb3: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb3: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb3: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb3: Ändern Passwort für Benutzer root.\r\n    nodeb3: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb3' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb3: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Setting the name of the VM: Vm1_nodeb3_1532594161551_58871\u001b[0m", 
+        "\u001b[1m==> nodeb3: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb3: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb3: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb3: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb3: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb3: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb3: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb3: ", 
+        "    nodeb3: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb3: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb3: ", 
+        "    nodeb3: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb3: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb3: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb3: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb3: The guest additions on this VM do not match the installed version of", 
+        "    nodeb3: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb3: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb3: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb3: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb3: your host and reload your VM.", 
+        "    nodeb3: ", 
+        "    nodeb3: Guest Additions Version: 4.3.28", 
+        "    nodeb3: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb3: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb3: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb3: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb3: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb3: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb3: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb3: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb3: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb3: Ändern Passwort für Benutzer root.", 
+        "    nodeb3: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.164 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.164 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb4' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb4: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb4: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb4: Setting the name of the VM: Vm1_nodeb4_1532594219874_98195\u001b[0m\r\n\u001b[1m==> nodeb4: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb4: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb4: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb4: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb4: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb4: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb4: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb4: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb4: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb4: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb4: \r\n    nodeb4: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb4: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb4: \r\n    nodeb4: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb4: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb4: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb4: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb4: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb4: The guest additions on this VM do not match the installed version of\r\n    nodeb4: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb4: prevent things such as shared folders from working properly. If you see\r\n    nodeb4: shared folder errors, please make sure the guest additions within the\r\n    nodeb4: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb4: your host and reload your VM.\r\n    nodeb4: \r\n    nodeb4: Guest Additions Version: 4.3.28\r\n    nodeb4: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb4: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb4: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb4: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb4: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb4: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb4: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb4: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb4: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb4: Ändern Passwort für Benutzer root.\r\n    nodeb4: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb4' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb4: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Setting the name of the VM: Vm1_nodeb4_1532594219874_98195\u001b[0m", 
+        "\u001b[1m==> nodeb4: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb4: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb4: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb4: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb4: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb4: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb4: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb4: ", 
+        "    nodeb4: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb4: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb4: ", 
+        "    nodeb4: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb4: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb4: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb4: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb4: The guest additions on this VM do not match the installed version of", 
+        "    nodeb4: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb4: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb4: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb4: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb4: your host and reload your VM.", 
+        "    nodeb4: ", 
+        "    nodeb4: Guest Additions Version: 4.3.28", 
+        "    nodeb4: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb4: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb4: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb4: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb4: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb4: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb4: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb4: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb4: Ändern Passwort für Benutzer root.", 
+        "    nodeb4: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+192.168.100.162 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.100.162 closed.\r\n", 
+    "unreachable": true
+}
+192.168.100.163 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.100.163 closed.\r\n", 
+    "unreachable": true
+}
+192.168.100.166 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.100.166 closed.\r\n", 
+    "unreachable": true
+}
+192.168.100.165 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.100.165 closed.\r\n", 
+    "unreachable": true
+}
+192.168.100.161 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.100.161 closed.\r\n", 
+    "unreachable": true
+}
+192.168.100.164 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.164 closed.\r\n", 
+    "stdout": "\u001b[1m==> nodeb4: Forcing shutdown of VM...\u001b[0m\r\n\u001b[1m==> nodeb4: Destroying VM and associated drives...\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[1m==> nodeb4: Forcing shutdown of VM...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Destroying VM and associated drives...\u001b[0m"
+    ]
+}
+192.168.100.163 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.163 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb3' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb3: Machine already provisioned. Run `vagrant provision` or use the `--provision`\r\n==> nodeb3: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb3' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb3: Machine already provisioned. Run `vagrant provision` or use the `--provision`", 
+        "==> nodeb3: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m"
+    ]
+}
+192.168.100.165 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.165 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb5' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb5: Machine already provisioned. Run `vagrant provision` or use the `--provision`\r\n==> nodeb5: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb5' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb5: Machine already provisioned. Run `vagrant provision` or use the `--provision`", 
+        "==> nodeb5: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m"
+    ]
+}
+192.168.100.162 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.162 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb2' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb2: Machine already provisioned. Run `vagrant provision` or use the `--provision`\r\n==> nodeb2: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb2' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb2: Machine already provisioned. Run `vagrant provision` or use the `--provision`", 
+        "==> nodeb2: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m"
+    ]
+}
+192.168.100.166 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.166 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb6' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb6: Machine already provisioned. Run `vagrant provision` or use the `--provision`\r\n==> nodeb6: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb6' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb6: Machine already provisioned. Run `vagrant provision` or use the `--provision`", 
+        "==> nodeb6: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m"
+    ]
+}
+192.168.100.161 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.161 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb1' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb1: Machine already provisioned. Run `vagrant provision` or use the `--provision`\r\n==> nodeb1: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb1' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb1: Machine already provisioned. Run `vagrant provision` or use the `--provision`", 
+        "==> nodeb1: flag to force provisioning. Provisioners marked to run always will still run.\u001b[0m"
+    ]
+}
+192.168.100.164 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 192.168.100.164 closed.\r\n", 
+    "stdout": "\u001b[0mBringing machine 'nodeb4' up with 'virtualbox' provider...\u001b[0m\r\n\u001b[1m==> nodeb4: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m\r\n\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m\r\u001b[K\u001b[0m\u001b[1m==> nodeb4: Matching MAC address for NAT networking...\u001b[0m\r\n\u001b[1m==> nodeb4: Setting the name of the VM: Vm1_nodeb4_1534926130341_23768\u001b[0m\r\n\u001b[1m==> nodeb4: Clearing any previously set forwarded ports...\u001b[0m\r\n\u001b[1m==> nodeb4: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m\r\n\u001b[1m==> nodeb4: Clearing any previously set network interfaces...\u001b[0m\r\n\u001b[1m==> nodeb4: Preparing network interfaces based on configuration...\u001b[0m\r\n\u001b[0m    nodeb4: Adapter 1: nat\u001b[0m\r\n\u001b[0m    nodeb4: Adapter 2: bridged\u001b[0m\r\n\u001b[1m==> nodeb4: Forwarding ports...\u001b[0m\r\n\u001b[0m    nodeb4: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m\r\n\u001b[1m==> nodeb4: Booting VM...\u001b[0m\r\n\u001b[1m==> nodeb4: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m\r\n\u001b[0m    nodeb4: \r\n    nodeb4: Vagrant insecure key detected. Vagrant will automatically replace\r\n    nodeb4: this with a newly generated keypair for better security.\u001b[0m\r\n\u001b[0m    nodeb4: \r\n    nodeb4: Inserting generated public key within guest...\u001b[0m\r\n\u001b[0m    nodeb4: Removing insecure key from the guest if it's present...\u001b[0m\r\n\u001b[0m    nodeb4: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n\u001b[1m==> nodeb4: Machine booted and ready!\u001b[0m\r\n\u001b[1m==> nodeb4: Checking for guest additions in VM...\u001b[0m\r\n\u001b[0m    nodeb4: The guest additions on this VM do not match the installed version of\r\n    nodeb4: VirtualBox! In most cases this is fine, but in rare cases it can\r\n    nodeb4: prevent things such as shared folders from working properly. If you see\r\n    nodeb4: shared folder errors, please make sure the guest additions within the\r\n    nodeb4: virtual machine match the version of VirtualBox you have installed on\r\n    nodeb4: your host and reload your VM.\r\n    nodeb4: \r\n    nodeb4: Guest Additions Version: 4.3.28\r\n    nodeb4: VirtualBox Version: 5.2\u001b[0m\r\n\u001b[1m==> nodeb4: Setting hostname...\u001b[0m\r\n\u001b[1m==> nodeb4: Configuring and enabling network interfaces...\u001b[0m\r\n\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m\r\n\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m\r\n\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m\r\n\u001b[1m==> nodeb4: Mounting shared folders...\u001b[0m\r\n\u001b[0m    nodeb4: /vagrant => /home/Vm/Vm1\u001b[0m\r\n\u001b[1m==> nodeb4: Running provisioner: shell...\u001b[0m\r\n\u001b[0m    nodeb4: Running: inline script\u001b[0m\r\n\u001b[0;31m    nodeb4: Geben Sie ein neues Passwort ein: \u001b[0m\r\n\u001b[0;31m    nodeb4: Geben Sie das neue Passwort erneut ein: \u001b[0m\r\n\u001b[0;32m    nodeb4: Ändern Passwort für Benutzer root.\r\n    nodeb4: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m\r\n", 
+    "stdout_lines": [
+        "\u001b[0mBringing machine 'nodeb4' up with 'virtualbox' provider...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Importing base box 'centos-7.0-x86_64.box'...\u001b[0m", 
+        "\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 10%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 30%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 50%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 60%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 70%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[0mProgress: 90%\u001b[0m\u001b[0m", 
+        "\u001b[K\u001b[0m\u001b[1m==> nodeb4: Matching MAC address for NAT networking...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Setting the name of the VM: Vm1_nodeb4_1534926130341_23768\u001b[0m", 
+        "\u001b[1m==> nodeb4: Clearing any previously set forwarded ports...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Fixed port collision for 22 => 2222. Now on port 2200.\u001b[0m", 
+        "\u001b[1m==> nodeb4: Clearing any previously set network interfaces...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Preparing network interfaces based on configuration...\u001b[0m", 
+        "\u001b[0m    nodeb4: Adapter 1: nat\u001b[0m", 
+        "\u001b[0m    nodeb4: Adapter 2: bridged\u001b[0m", 
+        "\u001b[1m==> nodeb4: Forwarding ports...\u001b[0m", 
+        "\u001b[0m    nodeb4: 22 (guest) => 2200 (host) (adapter 1)\u001b[0m", 
+        "\u001b[1m==> nodeb4: Booting VM...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Waiting for machine to boot. This may take a few minutes...\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m", 
+        "\u001b[0m    nodeb4: ", 
+        "    nodeb4: Vagrant insecure key detected. Vagrant will automatically replace", 
+        "    nodeb4: this with a newly generated keypair for better security.\u001b[0m", 
+        "\u001b[0m    nodeb4: ", 
+        "    nodeb4: Inserting generated public key within guest...\u001b[0m", 
+        "\u001b[0m    nodeb4: Removing insecure key from the guest if it's present...\u001b[0m", 
+        "\u001b[0m    nodeb4: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Machine booted and ready!\u001b[0m", 
+        "\u001b[1m==> nodeb4: Checking for guest additions in VM...\u001b[0m", 
+        "\u001b[0m    nodeb4: The guest additions on this VM do not match the installed version of", 
+        "    nodeb4: VirtualBox! In most cases this is fine, but in rare cases it can", 
+        "    nodeb4: prevent things such as shared folders from working properly. If you see", 
+        "    nodeb4: shared folder errors, please make sure the guest additions within the", 
+        "    nodeb4: virtual machine match the version of VirtualBox you have installed on", 
+        "    nodeb4: your host and reload your VM.", 
+        "    nodeb4: ", 
+        "    nodeb4: Guest Additions Version: 4.3.28", 
+        "    nodeb4: VirtualBox Version: 5.2\u001b[0m", 
+        "\u001b[1m==> nodeb4: Setting hostname...\u001b[0m", 
+        "\u001b[1m==> nodeb4: Configuring and enabling network interfaces...\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH address: 127.0.0.1:2200\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH username: vagrant\u001b[0m", 
+        "\u001b[0m    nodeb4: SSH auth method: private key\u001b[0m", 
+        "\u001b[1m==> nodeb4: Mounting shared folders...\u001b[0m", 
+        "\u001b[0m    nodeb4: /vagrant => /home/Vm/Vm1\u001b[0m", 
+        "\u001b[1m==> nodeb4: Running provisioner: shell...\u001b[0m", 
+        "\u001b[0m    nodeb4: Running: inline script\u001b[0m", 
+        "\u001b[0;31m    nodeb4: Geben Sie ein neues Passwort ein: \u001b[0m", 
+        "\u001b[0;31m    nodeb4: Geben Sie das neue Passwort erneut ein: \u001b[0m", 
+        "\u001b[0;32m    nodeb4: Ändern Passwort für Benutzer root.", 
+        "    nodeb4: passwd: alle Authentifizierungs-Merkmale erfolgreich aktualisiert.\u001b[0m"
+    ]
+}
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 16 11550   16  1918    0     0    617      0  0:00:18  0:00:03  0:00:15   617100 11550  100 11550    0     0   3544      0  0:00:03  0:00:03 --:--:--  3545
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 37  5180   37  1919    0     0   1304      0  0:00:03  0:00:01  0:00:02  1304100  5180  100  5180    0     0   2905      0  0:00:01  0:00:01 --:--:--  2905
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0100  5325  100  5325    0     0   2392      0  0:00:02  0:00:02 --:--:--  2393
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+ [WARNING]: Consider using file module with state=directory rather than running
+mkdir
+ [WARNING]: Consider using file module with state=directory rather than running
+mkdir
+2018/08/22 20:20:07 [INFO] generating a new CA key and certificate from CSR
+2018/08/22 20:20:07 [INFO] generate received request
+2018/08/22 20:20:07 [INFO] received CSR
+2018/08/22 20:20:07 [INFO] generating key: rsa-2048
+2018/08/22 20:20:07 [INFO] encoded CSR
+2018/08/22 20:20:07 [INFO] signed certificate with serial number 268214128358820934720510828750045236232313161983
+2018/08/22 20:20:28 [INFO] generate received request
+2018/08/22 20:20:28 [INFO] received CSR
+2018/08/22 20:20:28 [INFO] generating key: rsa-2048
+2018/08/22 20:20:28 [INFO] encoded CSR
+2018/08/22 20:20:28 [INFO] signed certificate with serial number 243154551628358676096104287902947956848078264809
+2018/08/22 20:20:28 [WARNING] This certificate lacks a "hosts" field. This makes it unsuitable for
+websites. For more information see the Baseline Requirements for the Issuance and Management
+of Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);
+specifically, section 10.2.3 ("Information Requirements").
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   131    0    47  100    84    119    213 --:--:-- --:--:-- --:--:--   213
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   131    0    47  100    84    124    223 --:--:-- --:--:-- --:--:--   223
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    112    206 --:--:-- --:--:-- --:--:--   206
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    123    226 --:--:-- --:--:-- --:--:--   226
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    116    213 --:--:-- --:--:-- --:--:--   213
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    154    282 --:--:-- --:--:-- --:--:--   282100   133    0    47  100    86    129    236 --:--:-- --:--:-- --:--:--   236
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    137    251 --:--:-- --:--:-- --:--:--   251100   133    0    47  100    86    116    213 --:--:-- --:--:-- --:--:--   213
+{"errno":0,"errmsg":"success","dataset":"done"}packet_write_wait: Connection to 192.168.100.11 port 22: Broken pipe
+make: *** [run] 错误 255
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    147    269 --:--:-- --:--:-- --:--:--   269100   133    0    47  100    86    122    224 --:--:-- --:--:-- --:--:--   224
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    111    204 --:--:-- --:--:-- --:--:--   204
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    147    269 --:--:-- --:--:-- --:--:--   269100   133    0    47  100    86    124    228 --:--:-- --:--:-- --:--:--   228
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    127    232 --:--:-- --:--:-- --:--:--   233
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    120    224 --:--:-- --:--:-- --:--:--   225
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   209    0    47  100   162    129    445 --:--:-- --:--:-- --:--:--   446
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    120    220 --:--:-- --:--:-- --:--:--   221
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    123    225 --:--:-- --:--:-- --:--:--   226
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    115    211 --:--:-- --:--:-- --:--:--   211
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    120    220 --:--:-- --:--:-- --:--:--   220
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    126    231 --:--:-- --:--:-- --:--:--   232
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    111    204 --:--:-- --:--:-- --:--:--   205
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    127    234 --:--:-- --:--:-- --:--:--   234
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    122    224 --:--:-- --:--:-- --:--:--   225
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    118    217 --:--:-- --:--:-- --:--:--   216
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    106    200 --:--:-- --:--:-- --:--:--   200
+{"errno":0,"errmsg":"success","dataset":"done"}
