@@ -40,6 +40,7 @@ LOG_PREFIX=/tmp/test-install-k8.$(date -d today +'%Y-%m-%d_%H:%M:%S')
 START=$(date +%s)
 START_STR=$(date -d today +'%Y-%m-%d %H:%M:%S')
 FAILD=0
+SCKEY=$(echo ${SCKEY} | tr "," " ")
 for i in $(seq -s ' ' 1 ${NUM}); do 
   FLAG=$(make > ${LOG_PREFIX}.${i}_in_${NUM}.log 2>&1)
   TEXT="test_install_k8s_${i}"
@@ -55,8 +56,10 @@ round: $i / $NUM
 ret: ${RET}
 EOF
   )
-  URL=https://sc.ftqq.com/${SCKEY}.send
-  curl -d "text=${TEXT}&desp=${DESP}" -X POST ${URL}
+  for KEY in ${SCKEY}; do
+    URL=https://sc.ftqq.com/${KEY}.send
+    curl -d "text=${TEXT}&desp=${DESP}" -X POST ${URL}
+  done
 done
 END=$(date +%s)
 END_STR=$(date -d today +'%Y-%m-%d %H:%M:%S')
@@ -72,7 +75,6 @@ success: $[${NUM}-${FAILD}]
 faild: ${FAILD}  
 EOF
 )
-SCKEY=$(echo ${SCKEY} | tr "," " ")
 for KEY in ${SCKEY}; do
   URL=https://sc.ftqq.com/${KEY}.send
   curl -d "text=${TEXT}&desp=${DESP}" -X POST ${URL}

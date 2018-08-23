@@ -715,4 +715,7 @@ make: *** [run] 错误 255
 {"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    106    200 --:--:-- --:--:-- --:--:--   200
-{"errno":0,"errmsg":"success","dataset":"done"}
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   125    0    39  100    86    135    299 --:--:-- --:--:-- --:--:--   298100   125    0    39  100    86    112    247 --:--:-- --:--:-- --:--:--   247
+{"errno":1024,"errmsg":"bad pushtoken"}
