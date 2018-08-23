@@ -718,4 +718,118 @@ make: *** [run] 错误 255
 {"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   125    0    39  100    86    135    299 --:--:-- --:--:-- --:--:--   298100   125    0    39  100    86    112    247 --:--:-- --:--:-- --:--:--   247
-{"errno":1024,"errmsg":"bad pushtoken"}
+{"errno":1024,"errmsg":"bad pushtoken"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    120    219 --:--:-- --:--:-- --:--:--   219
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    134    246 --:--:-- --:--:-- --:--:--   247
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    118    217 --:--:-- --:--:-- --:--:--   217
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    114    209 --:--:-- --:--:-- --:--:--   209
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    121    222 --:--:-- --:--:-- --:--:--   222
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    141    258 --:--:-- --:--:-- --:--:--   258100   133    0    47  100    86    119    218 --:--:-- --:--:-- --:--:--   218
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    120    221 --:--:-- --:--:-- --:--:--   221
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    142    261 --:--:-- --:--:-- --:--:--   261100   133    0    47  100    86    142    261 --:--:-- --:--:-- --:--:--   260
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    123    226 --:--:-- --:--:-- --:--:--   225
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    145    266 --:--:-- --:--:-- --:--:--   267
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    125    229 --:--:-- --:--:-- --:--:--   229
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    130    238 --:--:-- --:--:-- --:--:--   238
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    129    237 --:--:-- --:--:-- --:--:--   236
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    128    235 --:--:-- --:--:-- --:--:--   235
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    112    206 --:--:-- --:--:-- --:--:--   207
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    156    286 --:--:-- --:--:-- --:--:--   286100   133    0    47  100    86    131    240 --:--:-- --:--:-- --:--:--   240
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    124    228 --:--:-- --:--:-- --:--:--   228
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   133    0    47  100    86    133    245 --:--:-- --:--:-- --:--:--   245
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    125    235 --:--:-- --:--:-- --:--:--   234100   135    0    47  100    88    125    234 --:--:-- --:--:-- --:--:--   234
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    114    215 --:--:-- --:--:-- --:--:--   215
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    119    223 --:--:-- --:--:-- --:--:--   223
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    115    215 --:--:-- --:--:-- --:--:--   216
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    124    232 --:--:-- --:--:-- --:--:--   233
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    121    227 --:--:-- --:--:-- --:--:--   228
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    125    235 --:--:-- --:--:-- --:--:--   235
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    121    227 --:--:-- --:--:-- --:--:--   227
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    131    245 --:--:-- --:--:-- --:--:--   245
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    116    217 --:--:-- --:--:-- --:--:--   217100   135    0    47  100    88    116    217 --:--:-- --:--:-- --:--:--   217
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    135    252 --:--:-- --:--:-- --:--:--   252100   135    0    47  100    88    115    215 --:--:-- --:--:-- --:--:--   215
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    117    220 --:--:-- --:--:-- --:--:--   221
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    117    220 --:--:-- --:--:-- --:--:--   220
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    122    229 --:--:-- --:--:-- --:--:--   229
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    134    251 --:--:-- --:--:-- --:--:--   252
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    122    228 --:--:-- --:--:-- --:--:--   229
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    138    259 --:--:-- --:--:-- --:--:--   259100   135    0    47  100    88    117    220 --:--:-- --:--:-- --:--:--   220
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    130    244 --:--:-- --:--:-- --:--:--   244
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    120    226 --:--:-- --:--:-- --:--:--   226
+{"errno":0,"errmsg":"success","dataset":"done"}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   135    0    47  100    88    122    228 --:--:-- --:--:-- --:--:--   229
+{"errno":0,"errmsg":"success","dataset":"done"}

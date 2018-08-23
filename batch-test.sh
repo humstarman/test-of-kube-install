@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 show_help () {
 cat << USAGE
 usage: $0 [ -n NUMBER-TO-TEST ] [ -k SCKEY-TO-SEND-MSG ]
