@@ -5,7 +5,8 @@ cat << USAGE
 usage: $0 [ -n NUMBER-TO-TEST ] [ -k SCKEY-TO-SEND-MSG ]
 
     -n : Specify the number to test. 
-    -k : Specify the SCKEY of the user to send msg to.
+    -k : Specify the SCKEY of the user to send note to. If multiple, set the keys in term of csv, 
+         as 'key-1,key-2,key-3'.
 
 USAGE
 exit 0
