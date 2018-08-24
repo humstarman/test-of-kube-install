@@ -24,3 +24,6 @@ approve:
 
 test:
 	@ssh root@${NET}.11 -t "kubectl get nodes"
+
+key:
+	@echo ${MSG_ARG}

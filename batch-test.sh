@@ -52,7 +52,7 @@ for i in $(seq -s ' ' 1 ${NUM}); do
   DESP=$(cat <<EOF
 time: $(date -d today +'%Y-%m-%d %H:%M:%S')  
 round: $i / $NUM   
-ret: ${RET}
+status: ${RET}
 EOF
   )
   for KEY in ${SCKEY}; do
