@@ -42,7 +42,7 @@ FAILD=0
 SCKEY=$(echo ${SCKEY} | tr "," " ")
 for i in $(seq -s ' ' 1 ${NUM}); do 
   FLAG=$(make > ${LOG_PREFIX}.${i}_in_${NUM}.log 2>&1)
-  TEXT="test install k8s ${i}"
+  TEXT="test install k8s - ${i}"
   if [[ $FLAG -eq 0 ]]; then
     RET="Success"
   else
